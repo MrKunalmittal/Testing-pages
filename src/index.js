@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router
-    basename='/home'>
+    basename='/Testing-pages'>
       <App/>
     </Router>
     
