@@ -20,7 +20,7 @@ function Header(props) {
               </div>
               <div className="nav-bar">
                   <ul>
-                      <li><Link to="/" href="#" ><p>Home</p></Link></li>
+                      <li><Link to="/home" href="#" ><p>Home</p></Link></li>
                       <li><Link to="/tutorials" href="#" ><p>Tutorials</p></Link></li>
                       <li><NavLink
                       className={navData => (navData.isActive? "active" : "")}
