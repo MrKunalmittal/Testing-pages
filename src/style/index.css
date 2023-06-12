@@ -1,0 +1,95 @@
+@import './reset.css';
+:root {
+    --app-body-box-shadow: 0 0.275rem 1.25rem rgb(11 15 25 / 5%), 0 0.25rem 0.5625rem rgb(11 15 25 / 3%);
+   --app-gray-section: #f3f6ff;
+   --app-button-background-color: #4297A0;
+   --app-button-hover-background-color:  #2F5061;
+   --app-title-color: #343541;
+   --app-gray-title: #9b9b9b;
+   --app-gray-content: #868585;
+   --app-gray-background:#e5e9f1; 
+  
+}
+
+.container {
+   width: min(100% - 30px, 1080px);
+   margin-inline: auto;
+ }
+
+body{
+   background-color: #f2f3f7;
+}
+
+.flex {
+   display: flex;
+   justify-content: space-between;
+}
+/*---------------header--------------------------------*/
+
+
+
+header {
+   height: 56px;
+   line-height: 0px;
+   box-shadow: var(--app-body-box-shadow);
+   display: flex;
+   justify-content: space-between;
+   background-color: var(--app-gray-background)
+}
+
+header h1 {
+   margin-top: 25px;
+   font-size: 45px;
+   font-family: 'Bodoni Moda', serif;
+   letter-spacing: 3px;
+   color: var(--app-title-color);
+}
+
+
+.nav-bar ul {
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   text-decoration: none;
+
+   font-size: 22px;
+   color: var(--app-title-color);
+   font-weight: 700;
+   line-height: 56px;
+   letter-spacing: 5px;
+   transition: all 0.25s ease-in-out; 
+}
+
+.nav-bar ul li a {
+   text-decoration: none; 
+
+   font-size: 22px;
+   color: var(--app-title-color);
+   font-weight: 700;
+   line-height: 56px;
+   letter-spacing: 5px;
+   transition: all 0.25s ease-in-out; 
+}
+
+
+/* .nav-bar ul li + li {
+   margin-left: 20px; 
+} */
+
+.nav-bar p {
+   font-size: 22px;
+   color: var(--app-title-color);
+   font-weight: 700;
+   line-height: 56px;
+   letter-spacing: 5px;
+   transition: all 0.25s ease-in-out; 
+   /* font-family: 'Bodoni Moda', serif; */
+}
+
+.nav-bar ul li:hover {
+   text-decoration: underline;
+   background-color: aqua;
+}
+.active{
+    background-color: orange;
+}
